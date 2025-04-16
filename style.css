@@ -273,3 +273,10 @@ footer p {
   color: #09C8D9;
   margin-bottom: 20px;
 }
+
+.assessment-embed {
+  max-width: 640px;  /* Matches your iframe width */
+  margin: 0 auto;    /* Centers the container horizontally */
+  padding: 20px 0;   /* Optional vertical spacing */
+}
+
