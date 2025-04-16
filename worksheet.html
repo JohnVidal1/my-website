@@ -5,12 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Worksheet/Handout - Mental Health Toolkit</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- Google Fonts: Poppins for body & Dancing Script for accents -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <style>
+    .download-center {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .download-center a {
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      color: #09C8D9;
+      padding: 12px 24px;
+      border: 2px solid #09C8D9;
+      border-radius: 30px;
+      transition: all 0.3s ease;
+    }
+
+    .download-center a:hover {
+      background-color: #09C8D9;
+      color: #ffffff;
+    }
+
+    .worksheet-section h3 {
+      color: #FFFFFF;
+      margin-top: 30px;
+    }
+
+    .worksheet-section p {
+      margin-bottom: 15px;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- HEADER (using the same navy-header style as other pages) -->
+  <!-- HEADER -->
   <header class="navy-header">
     <div class="branding">
       <img src="CommuniCare.png" alt="Toolkit Logo" class="logo">
@@ -36,31 +68,34 @@
     </nav>
   </header>
 
-  <!-- CONTENT SECTION: WORKSHEET/HANDOUT -->
+  <!-- CONTENT SECTION -->
   <main class="content-section">
     <section class="worksheet-section">
       <h2 class="page-title">Worksheet / Handout</h2>
       <p class="page-intro">
-         This worksheet is designed as a practical handout that complements our Mental Health in the Workplace Training program.
-         It provides exercises, reflection prompts, and actionable steps for applying mental health best practices in a work environment.
+        This worksheet is designed as a practical handout that complements our Mental Health in the Workplace training program.
+        It provides exercises, reflection prompts, and actionable steps for applying mental health best practices in a work environment.
       </p>
-      
+
       <h3>Key Sections</h3>
-      
       <p>
-         Use this handout individually or in group sessions to facilitate discussion and develop personalized plans for improving well‑being in your organization.
+        Use this handout individually or in group sessions to facilitate discussion and develop personalized plans 
+        for improving well-being in your organization.
       </p>
-      
-      <h3>View & Download the Handout</h3>
-      <!-- Ensure the PDF file (worksheet.pdf) is placed in the "media" folder -->
-      <iframe src="media/worksheet.pdf" width="100%" height="600px"></iframe>
-      <p><a href="media/worksheet.pdf" download>Download Worksheet/Handout (PDF)</a></p>
+
+      <h3>View the Handout</h3>
+      <iframe src="media/worksheet.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+      <!-- Styled Centered Download Button -->
+      <div class="download-center">
+        <a href="media/worksheet.pdf" download>Download Worksheet/Handout (PDF)</a>
+      </div>
     </section>
   </main>
 
   <!-- FOOTER -->
   <footer>
-    <p>&copy; 2025 CommuniCore Project Team | Website by [Your Name]</p>
+    <p>&copy; 2025 CommuniCore Project Team | Website by John Vidal</p>
   </footer>
 
 </body>
