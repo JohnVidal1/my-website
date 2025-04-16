@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home - Mental Health Toolkit</title>
+  <title>Home - Mental Health in the Workplace</title>
   <!-- Link to your CSS file -->
   <link rel="stylesheet" href="style.css" />
   <!-- Google Fonts: Poppins (body) + Dancing Script (accent) -->
@@ -11,25 +11,23 @@
 </head>
 <body>
 
-  <!-- BLUE HEADER (matching the blue around the brain) -->
+  <!-- HEADER (uses .navy-header) -->
   <header class="navy-header">
     <div class="branding">
-      <!-- Your logo is inserted here -->
+      <!-- Update src if your logo is in a different folder -->
       <img src="CommuniCare.png" alt="Toolkit Logo" class="logo">
       <h1>Mental Health in the Workplace</h1>
     </div>
-
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="overview.html">Overview</a></li>
         <li class="dropdown">
           <a href="deliverables.html">Deliverables</a>
           <ul class="dropdown-content">
             <li><a href="slidedeck.html">Slide Deck</a></li>
             <li><a href="assessment.html">Assessment Tool</a></li>
-            <!-- Replaced Podcast Series with Mental Health Poster -->
-            <li><a href="poster.html">Mental Health Poster</a></li>
+            <li><a href="poster.html">Poster</a></li>
             <li><a href="infographic.html">Infographic</a></li>
             <li><a href="worksheet.html">Worksheet</a></li>
           </ul>
@@ -40,15 +38,39 @@
     </nav>
   </header>
 
-  <!-- HERO SECTION -->
+  <!-- HERO SECTION (Welcome / Call-to-Action) -->
   <main class="hero-section">
-    <h2 class="hero-title">and breathe</h2>
-    <p class="hero-subtitle">Strategic tools and training to promote mental health in every organization.</p>
-    <div class="cta-buttons">
-      <a href="overview.html" class="btn btn-primary">Explore Toolkit</a>
-      <a href="deliverables.html" class="btn btn-outline">View Deliverables</a>
+    <div class="overlay">
+      <div class="hero-text">
+        <h2 class="hero-title">and breathe</h2>
+        <p class="hero-subtitle">
+          Strategic tools and training to promote mental health in every organization.
+        </p>
+        <div class="cta-buttons">
+          <a href="overview.html" class="btn btn-primary">Explore Toolkit</a>
+          <a href="deliverables.html" class="btn btn-outline">View Deliverables</a>
+        </div>
+      </div>
     </div>
   </main>
+
+  <!-- OPTIONAL: WELCOME SECTION BELOW HERO -->
+  <section class="welcome-section">
+    <div class="welcome-content">
+      <h3>Welcome to Our Mental Health Toolkit</h3>
+      <p>
+        We believe that fostering a supportive, compassionate workplace culture is a vital part 
+        of any successful organization. This toolkit offers resources, training materials, and 
+        actionable insights to help you and your team prioritize mental health at work.
+      </p>
+      <p>
+        From practical worksheets and assessments to engaging slide decks, posters, and infographics, 
+        our toolkit is designed to be flexible for your unique needs. Whether you’re an HR professional, 
+        manager, or employee, you’ll find something here to spark meaningful conversations about 
+        well-being and create lasting change.
+      </p>
+    </div>
+  </section>
 
   <!-- FOOTER -->
   <footer>
