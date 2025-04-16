@@ -290,4 +290,16 @@ footer p {
   font-weight: 600;
   color: #09C8D9; /* Adjust color if desired */
 }
+.references-list {
+  list-style-type: none; /* Removes bullets */
+  padding-left: 0;
+}
+
+.references-list li {
+  margin-bottom: 1em; /* Approx. double spacing between references */
+  text-indent: -1.5em; /* Hanging indent */
+  padding-left: 1.5em;
+  line-height: 1.5; /* Optional: makes lines easier to read */
+}
+
 
