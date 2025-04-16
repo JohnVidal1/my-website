@@ -1,0 +1,219 @@
+/* 
+  ~~~~~~~~~~~~~~
+   GLOBAL RESETS
+  ~~~~~~~~~~~~~~
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/*
+  ~~~~~~~~~~~~~~
+   BODY STYLES
+  ~~~~~~~~~~~~~~
+*/
+body {
+  font-family: 'Poppins', sans-serif;  /* Clean, modern font */
+  background-color: #1E2D3A;           /* Navy-ish background */
+  color: #FFFFFF;                      /* White text for contrast */
+  line-height: 1.6;
+  padding-top: 80px;                   /* Space for fixed header */
+}
+
+/*
+  ~~~~~~~~~~~~~~
+   HEADER + NAV
+  ~~~~~~~~~~~~~~
+*/
+/* Header style using navy-header with a blue tone */
+.navy-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #3F80CA;           /* Blue header matching your blue vibe */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 999;
+}
+
+/* Branding area (logo + site title) */
+.branding {
+  display: flex;
+  align-items: center;
+}
+
+.branding .logo {
+  width: 80px;   /* Scaling the 500x500 logo down */
+  height: 80px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.branding h1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+/* Navigation Menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  color: #09C8D9;  /* Teal accent on hover */
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #eee;
+  min-width: 180px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.dropdown-content li a {
+  display: block;
+  color: #333;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*
+  ~~~~~~~~~~~~~~
+   CONTENT SECTION (Interior Pages)
+  ~~~~~~~~~~~~~~
+*/
+.content-section {
+  background-color: #1E2D3A;             /* Navy background */
+  min-height: calc(100vh - 80px);         /* Full height minus header */
+  padding: 40px 20px;
+}
+
+/* Page title styling for interior pages */
+.page-title {
+  color: #09C8D9;                        /* Teal accent for titles */
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Intro paragraph styling */
+.page-intro {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Poster embed container */
+.poster-embed {
+  display: flex;
+  justify-content: center;  /* Center the embedded PDF horizontally */
+  margin: 0 auto;
+  max-width: 1200px;        /* Optional: limits the width on large screens */
+  width: 100%;
+}
+
+.poster-embed object {
+  max-width: 100%;
+  border: none;
+}
+
+/*
+  ~~~~~~~~~~~~~~
+   BUTTON STYLES
+  ~~~~~~~~~~~~~~
+*/
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 30px;       /* Smooth pill shape */
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin: 0 8px;
+}
+
+/* Filled teal button */
+.btn-primary {
+  background-color: #09C8D9;
+  color: #ffffff;
+  border: 2px solid #09C8D9;
+}
+
+.btn-primary:hover {
+  background-color: #07A6B7;
+  border-color: #07A6B7;
+}
+
+/* Outlined teal button */
+.btn-outline {
+  background: transparent;
+  color: #09C8D9;
+  border: 2px solid #09C8D9;
+}
+
+.btn-outline:hover {
+  background: #09C8D9;
+  color: #ffffff;
+}
+
+/*
+  ~~~~~~~~~~~~~~
+   FOOTER
+  ~~~~~~~~~~~~~~
+*/
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #16222F;
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+}
+
+footer p {
+  color: #fff;
+  margin: 0;
+}
