@@ -7,10 +7,33 @@
   <link rel="stylesheet" href="style.css" />
   <!-- Google Fonts: Poppins (body) + Dancing Script (accent) -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <style>
+    .download-center {
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    .download-center a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      color: #09C8D9;
+      background-color: transparent;
+      padding: 12px 24px;
+      border: 2px solid #09C8D9;
+      border-radius: 30px;
+      transition: all 0.3s ease;
+    }
+
+    .download-center a:hover {
+      background-color: #09C8D9;
+      color: #ffffff;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- HEADER (using the same navy-header style as your other pages) -->
+  <!-- HEADER -->
   <header class="navy-header">
     <div class="branding">
       <img src="CommuniCare.png" alt="Toolkit Logo" class="logo">
@@ -44,13 +67,14 @@
         This infographic provides key statistics, tips, and strategies for promoting mental health in the workplace.
         Explore its contents to gain insights into creating a supportive work environment.
       </p>
+      
       <!-- Infographic Image -->
       <img src="media/infograph.jpg" alt="Infographic on Mental Health" class="infographic">
 
-      <!-- Centered Download Link -->
-      <p class="download-center">
+      <!-- Styled Centered Download Link -->
+      <div class="download-center">
         <a href="media/infograph.jpg" download>Download Infographic</a>
-      </p>
+      </div>
     </section>
   </main>
 
