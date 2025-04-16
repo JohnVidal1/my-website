@@ -280,3 +280,14 @@ footer p {
   padding: 20px 0;   /* Optional vertical spacing */
 }
 
+.download-center {
+  text-align: center; /* This centers the link horizontally */
+  margin-top: 20px;   /* Optional spacing */
+}
+
+.download-center a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #09C8D9; /* Adjust color if desired */
+}
+
