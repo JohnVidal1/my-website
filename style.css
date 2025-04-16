@@ -229,3 +229,28 @@ footer p {
   max-width: 100%;
   border: none;
 }
+/* Center the team section container */
+.team-section {
+  max-width: 800px;
+  margin: 0 auto;       /* Centers the container */
+  text-align: left;     /* Set default text alignment */
+  padding: 40px 20px;
+}
+
+/* Center the team list items themselves */
+.team-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: center;   /* This centers the text within each list item */
+}
+
+.team-list li {
+  margin-bottom: 30px;
+  line-height: 1.6;
+  /* Optionally, if you want to force each entry to be narrower: */
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
