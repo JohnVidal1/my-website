@@ -7,6 +7,46 @@
   <link rel="stylesheet" href="style.css" />
   <!-- Google Fonts: Poppins (body) + Dancing Script (accent) -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <style>
+    .pdf-embed-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      margin-top: 30px;
+    }
+
+    .pdf-embed-container iframe {
+      border: none;
+      width: 90%;
+      height: 650px;
+      max-width: 1000px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      border-radius: 8px;
+    }
+
+    .download-center {
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    .download-center a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      color: #09C8D9;
+      background-color: transparent;
+      padding: 12px 24px;
+      border: 2px solid #09C8D9;
+      border-radius: 30px;
+      transition: all 0.3s ease;
+    }
+
+    .download-center a:hover {
+      background-color: #09C8D9;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
 
@@ -28,6 +68,7 @@
             <li><a href="poster.html">Poster</a></li>
             <li><a href="infographic.html">Infographic</a></li>
             <li><a href="worksheet.html">Worksheet</a></li>
+            <li><a href="video.html">Video</a></li>
           </ul>
         </li>
         <li><a href="team.html">Team</a></li>
@@ -46,11 +87,13 @@
         in meetings, workshops, or onboarding sessions.
       </p>
 
-      <!-- Embedded PDF (ensure the file is named/placed correctly) -->
-      <iframe src="media/mindfulness.pdf" width="100%" height="600px"></iframe>
+      <!-- PDF Embed Container -->
+      <div class="pdf-embed-container">
+        <iframe src="media/mindfulness.pdf"></iframe>
+      </div>
 
       <!-- Centered Download Link -->
-      <div class="center-download">
+      <div class="download-center">
         <a href="media/mindfulness.pdf" download>Download Slide Deck (PDF)</a>
       </div>
     </section>
