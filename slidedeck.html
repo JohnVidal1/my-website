@@ -5,12 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Slide Deck - Mental Health Toolkit</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Poppins (body) + Dancing Script (accent) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header class="standard-header">
+  <!-- HEADER: Using the same header as the rest of your site -->
+  <header class="navy-header">
     <div class="branding">
-      <img src="media/logo.png" alt="Toolkit Logo" class="logo">
+      <!-- If your logo is stored in "media", update the path accordingly -->
+      <img src="CommuniCare.png" alt="Toolkit Logo" class="logo">
       <h1>Mental Health in the Workplace</h1>
     </div>
     <nav>
@@ -22,7 +26,7 @@
           <ul class="dropdown-content">
             <li><a href="slidedeck.html">Slide Deck</a></li>
             <li><a href="assessment.html">Assessment Tool</a></li>
-            <li><a href="podcast.html">Podcast Series</a></li>
+            <li><a href="poster.html">Poster</a></li>
             <li><a href="infographic.html">Infographic</a></li>
             <li><a href="video.html">Animated Video</a></li>
             <li><a href="worksheet.html">Worksheet</a></li>
@@ -34,21 +38,24 @@
     </nav>
   </header>
 
-  <main>
+  <!-- HERO/CONTENT SECTION -->
+  <main class="content-section">
     <section>
-      <h2>Slide Deck: Mindfulness in the Workplace</h2>
-      <p>
+      <h2 class="page-title">Slide Deck: Mindfulness in the Workplace</h2>
+      <p class="page-intro">
         This presentation introduces core concepts around mindfulness and mental health in the workplace,
-        including techniques to manage stress and improve focus. Use this deck as a training resource in meetings,
-        workshops, or onboarding sessions.
+        including techniques to manage stress and improve focus. Use this slide deck as a training resource
+        in meetings, workshops, or onboarding sessions.
       </p>
-
+      
       <h3>View the Presentation</h3>
+      <!-- Embedded PDF (ensure the file is named correctly; renaming to remove spaces is recommended) -->
       <iframe src="media/Mindfulness_in_the_Workplace.pdf" width="100%" height="600px"></iframe>
       <p><a href="media/Mindfulness_in_the_Workplace.pdf" download>Download Slide Deck (PDF)</a></p>
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer>
     <p>&copy; 2025 CommuniCore Project Team | Website by [Your Name]</p>
   </footer>
