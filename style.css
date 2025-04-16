@@ -105,7 +105,7 @@ nav ul li a:hover {
   ~~~~~~~~~~~~~~
 */
 .hero-section {
-  min-height: calc(100vh - 80px);
+  min-height: 55vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -229,6 +229,7 @@ footer p {
   max-width: 100%;
   border: none;
 }
+
 /* Center the team section container */
 .team-section {
   max-width: 800px;
@@ -254,3 +255,21 @@ footer p {
   margin-right: auto;
 }
 
+
+.welcome-section {
+  background-color: #1E2D3A; /* same navy background as your body or your preference */
+  padding: 40px 20px;
+  text-align: center; /* or left if you prefer paragraphs left-aligned */
+}
+
+.welcome-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.welcome-content h3 {
+  font-size: 28px;
+  color: #09C8D9;
+  margin-bottom: 20px;
+}
